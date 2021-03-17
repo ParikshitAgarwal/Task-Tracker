@@ -16,7 +16,7 @@
   },
   "proxy": "http://localhost:5000",
   "scripts": {
-    "predeploy": "npm run build",
+    "predeploy": "npm run dev",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
